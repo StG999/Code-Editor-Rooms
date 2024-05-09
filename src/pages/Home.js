@@ -39,10 +39,10 @@ const Home = () => {
             <div className="formWrapper">
                 <img
                     className="homePageLogo"
-                    src="/code-sync.png"
+                    src="/download.png"
                     alt="code-sync-logo"
                 />
-                <h4 className="mainLabel">Paste invitation ROOM ID</h4>
+                <h4 className="mainLabel">Enter Room Id and UserName</h4>
                 <div className="inputGroup">
                     <input
                         type="text"
@@ -64,13 +64,13 @@ const Home = () => {
                         Join
                     </button>
                     <span className="createInfo">
-                        If you don't have an invite then create &nbsp;
+                         Create &nbsp;
                         <a
                             onClick={createNewRoom}
                             href=""
                             className="createNewBtn"
                         >
-                            new room
+                            New Room
                         </a>
                     </span>
                 </div>
