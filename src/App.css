@@ -76,7 +76,9 @@
     transition: all 0.3s ease-in-out;
 }
 
-.createNewBtn:hover,
+.createNewBtn:hover{
+    color: #40406e;
+}
 
 
 .mainWrap {
