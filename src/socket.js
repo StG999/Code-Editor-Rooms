@@ -7,6 +7,6 @@ export const initSocket = async () => { // Remove type annotations
       timeout: 1000000,
       transports: ['websocket'],
     };
-    return io("/", options);
+    return io("http://localhost:5000", options);
     
   };
