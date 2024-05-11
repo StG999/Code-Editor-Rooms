@@ -7,5 +7,5 @@ export const initSocket = async () => { // Remove type annotations
       timeout: 1000000,
       transports: ['websocket'],
     };
-    return io("https://synced-codeeditor-jrp1.vercel.app/", options);
+    return io("https://synced-codeeditor-aldh/", options);
   };
