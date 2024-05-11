@@ -4,7 +4,7 @@ export const initSocket = async () => { // Remove type annotations
     const options = {
       'force new connection': true,
       reconnectionAttempt: 'Infinity',
-      timeout: 10000,
+      timeout: 1000000,
       transports: ['websocket'],
     };
     return io("https://synced-codeeditor-svo2.vercel.app", options);
